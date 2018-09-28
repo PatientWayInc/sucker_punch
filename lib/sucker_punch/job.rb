@@ -23,7 +23,7 @@ module SuckerPunch
       base.class_attribute :num_workers
       base.class_attribute :num_jobs_max
 
-      base.num_workers = 2
+      base.num_workers = 1
       base.num_jobs_max = nil
     end
 
